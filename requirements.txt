@@ -1,0 +1,8 @@
+torch>=2.0
+transformers>=4.35
+accelerate
+datasets
+tensorboard
+scipy
+tqdm
+google-colab

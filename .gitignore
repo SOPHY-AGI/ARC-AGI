@@ -1,1 +1,20 @@
- 
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.env
+venv/
+.envrc
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model checkpoints / caches
+*.bin
+*.pth
+*.ckpt
+transformers_cache/
+huggingface/
+
+# OS
+.DS_Store
