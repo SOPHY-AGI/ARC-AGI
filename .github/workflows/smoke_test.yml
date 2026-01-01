@@ -16,9 +16,4 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       - name: Basic smoke checks
-        run: |
-          python - <<'PY'
-import torch, transformers
-print("torch", torch.__version__)
-print("transformers", transformers.__version__)
-PY
+        run: python -c "import torch, transformers; print('torch', torch.__version__); print('transformers', transformers.__version__)"
